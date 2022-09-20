@@ -6,3 +6,6 @@ and running.  In my case I chose (although not best practice) to setup a LB with
 
 If this were a production build I would likely instead create the NodePort and then just access it from a Windows JB which
 has limited RDP scope.
+
+What might be interesting here is the rbac file which includes the ability for jenkins to access a specific application namespace
+in order to perform tasks required.
